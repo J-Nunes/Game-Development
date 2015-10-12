@@ -1,0 +1,10 @@
+<!-- save file for the game -->
+
+<state>
+	<renderer>
+		<camera>
+			<position.x>100</position.x>
+			<position.y>100</position.y>
+		</camera>
+	</renderer>
+</state>
