@@ -20,7 +20,7 @@ j1Input::~j1Input()
 {}
 
 // Called before render is available
-bool j1Input::Awake(pugi::xml_node& node)
+bool j1Input::Awake()
 {
 	LOG("Init SDL input event system");
 	bool ret = true;

@@ -85,14 +85,7 @@ bool j1App::Awake()
 	while(item != NULL && ret == true)
 	{
 		// TODO 1: Every awake to receive a xml node with their section of the config file if exists
-		if (config.child(item->data->name.GetString()).child_value() == item->data->name.GetString())
-		{
-			ret = item->data->Awake(config.child(item->data->name.GetString()));
-		}
-		//No tinc clar que aquest if sigui necessari/correcte
-		//La idea es comprobar que el nom del node de l'arxiu config coincideix amb el nom del modul
-		//En qualsevol cas dona el mateix error amb o sense ell
-
+		ret = item->data->Awake();
 		item = item->next;
 	}
 

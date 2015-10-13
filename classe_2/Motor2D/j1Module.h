@@ -7,7 +7,6 @@
 #define __j1MODULE_H__
 
 #include "p2SString.h"
-#include "PugiXml\src\pugixml.hpp"
 
 class j1App;
 
@@ -24,7 +23,7 @@ public:
 	}
 
 	// Called before render is available
-	virtual bool Awake(pugi::xml_node&)
+	virtual bool Awake()
 	{
 		return true;
 	}

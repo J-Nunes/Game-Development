@@ -1,0 +1,31 @@
+<!-- Config file for the game -->
+
+<config>
+	<scale>1</scale>
+	<screen_width>640</screen_width>
+	<screen_height>480</screen_height>
+	<r_fullscreen>false</r_fullscreen>
+	<r_borderless>false</r_borderless>
+	<r_resizable>false</r_resizable>
+	<r_fullscr_windowed>false</r_fullscr_windowed>
+
+	<input>
+
+	</input>
+
+	<audio>
+
+	</audio>
+
+	<render>
+
+	</render>
+
+	<textures>
+
+	</textures>
+
+	<window>
+		<name>My super awesome game with XML</name>
+	</window>
+</config>

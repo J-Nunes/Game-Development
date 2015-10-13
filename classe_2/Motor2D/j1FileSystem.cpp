@@ -27,7 +27,7 @@ j1FileSystem::~j1FileSystem()
 }
 
 // Called before render is available
-bool j1FileSystem::Awake(pugi::xml_node& node)
+bool j1FileSystem::Awake()
 {
 	LOG("Loading File System");
 	bool ret = true;
